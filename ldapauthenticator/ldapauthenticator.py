@@ -208,7 +208,7 @@ class LDAPAuthenticator(Authenticator):
     username_map = Dict(
         config=True,
         help="""
-        map authenticator username to local users
+        Map LDAP authenticated username to local users.  This feature will allow LDAP users to use a different username for login
         """
     )
 
